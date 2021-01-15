@@ -532,6 +532,16 @@ h2 {
   width: 168px;
   margin: 28px auto 0;
 }
+.main .main-box .lightning .time span {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: #444444;
+  color: #ffffff;
+  text-align: center;
+  line-height: 46px;
+  font-size: 25px;
+}
 .main .span16 .swiper-wrapper {
   margin: 0;
   padding: 0;
