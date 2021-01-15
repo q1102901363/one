@@ -1,0 +1,80 @@
+.all {
+    width: 1226px;
+    height: 460px;
+}
+
+
+/*这三个最重要*/
+
+.screen {
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen img {
+    width: 1226px;
+    height: 460px;
+    float: left;
+}
+
+.screen .ul {
+    position: absolute;
+    left: 0;
+}
+
+.all ol {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.all ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.all ol li.active {
+    background-color: orange;
+    color: #fff;
+}
+
+.arr span {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: 245px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "黑体";
+    font-size: 30px;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    left: 5px;
+    transition: all .3s;
+    opacity: .5;
+}
+
+.arr .right {
+    right: 5px;
+    left: auto;
+}
+
+.arr span:hover {
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 1;
+}

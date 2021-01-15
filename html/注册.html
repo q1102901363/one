@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f9f9f9;">
+
+
+    <div class="mi-register container">
+        <div class="mi-w">
+            <div class="logo"><img src="../img/mi-logo.png" alt=""></div>
+            <h1 class="text-center h2">注册小米账号</h1>
+            <form action="../interface/reg.php" method="POST">
+                <div class="input-group">
+                    <span class="input-group-addon">用户名:</span>
+                    <input type="text" name="username" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">密码:</span>
+                    <input type="text" name="password" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">邮箱:</span>
+                    <input type="text" name="email" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">地址:</span>
+                    <input type="text" name="address" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">电话:</span>
+                    <input type="text" name="phone" class="form-control">
+                </div>
+                <a href="../html/登录.html" class="btn btn-block btn-success submit">立即注册</a>
+                <!-- <input type="submit" class="btn btn-block btn-success submit" value="立即注册"> -->
+            </form>
+            <div class="treaty">
+                已阅读并同意：小米
+                <a href="">用户协议</a> 和
+                <a href="">隐私政策 </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="custom" style="background-color: #f9f9f9;">
+        <div class="English">
+            <a href="">简体</a>
+            <span>|</span>
+            <a href="">繁体</a>
+            <span>|</span>
+            <a href="">English</a>
+            <span>|</span>
+            <a href="">常见问题</a>
+        </div>
+        <div class="company">
+            小米公司版权所有-京ICP备10046444-
+            <a href="">
+                <img src="../img/警徽.png" alt=""> 京公网安备11010802020134号
+            </a>
+            -京ICP证110507号
+        </div>
+    </div>
+</body>
+
+</html>
