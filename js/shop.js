@@ -68,10 +68,10 @@ if (shop) {
 
 
 
-            $('.col-check')
-                // $('.addd').on('click', function() {
-                //     let addd =
-                // });
+            // $('.col-check')
+            // $('.addd').on('click', function() {
+            //     let addd =
+            // });
         }
     });
 }

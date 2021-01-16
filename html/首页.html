@@ -25,6 +25,8 @@
     <script src="../js/library/jquery.js"></script>
     <script src="../js/index.js" type="module"></script>
     <script src="../js/carousel.js"></script>
+    <script src="../js/shop.js" type="module"></script>
+    <script src="../js/product.js" type="module"></script>
     <script>
         $(function() {
             let futuer;
@@ -1976,7 +1978,7 @@
                         </ul>
                     </div>
                     <div class="span16 ">
-                        <ul class="brick-list " id="brick-list ">
+                        <ul class="brick-list ff14" id="brick-list">
                             <!-- <li id="brick-item_1 " class="brick-item ">
                                 <a href=" ">
                                     <div class="picture ">
@@ -2135,7 +2137,7 @@
                         <ul class="brick-promo ">
                             <li id="brick-item_1 " class="brick-item " style="float: none;margin-bottom: 14px; ">
                                 <a href=" ">
-                                    <img class="lazy " data-src="../img/电视X65.webp " alt=" ">
+                                    <img class="lazy " data-original="../img/电视X65.webp " alt=" ">
                                 </a>
                             </li>
                             <li id="brick-item_1 " class="brick-item ">
@@ -3146,8 +3148,8 @@
 <!-- <script src="../js/library/jquery.js"></script> -->
 <!-- <script src="../js/jquery.lazyload.js "></script> -->
 <script type="text/javascript" charset="utf-8">
-    $(function() {
-        $("img.lazy").lazyload({
+    jQuery(document).ready(function($) {
+        $("img").lazyload({
             effect: "fadeIn"
         });
     });
